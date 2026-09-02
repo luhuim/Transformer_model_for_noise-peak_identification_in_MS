@@ -1,0 +1,9 @@
+# ':'后面必须有一个空格; 缩进必须用空格，不能用 Tab
+#   ✅ train_file: value
+#   ❌ train_file:value
+
+class_weight: [1.0, 3.8]
+checkpoint_folder: TrainingModel_2026_06_26
+
+# train_file: DT_M2105_468_train_set_25_07_10.pkl
+# valid_file: DT_M2105_468_valid_set_25_07_10.pkl
