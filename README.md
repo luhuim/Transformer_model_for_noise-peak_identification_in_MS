@@ -500,7 +500,14 @@ The final test-set performance was:
   python Test_2026_04_09/Result_analysis_test_2026_04_09.py
   ```
 
-## 6. Model parameters
+## 6. Model architecture 
+The detailed model architecture and description are shown in the image below. The changes in tensor shapes throughout the model are also annotated in the diagram.    
+
+`batch_size`: The size of the mini-batch.   
+`seq_len`: The length of the spectrum with the maximum peak count in this mini-batch.   
+`d_model`: The dimension of the model.     
+
+![Detailed model architecture](./Image/Detailed_model_architecture_tensor_shape.png) 
 
 The model parameters are provided in Supplementary Table 1 of the report.
 
